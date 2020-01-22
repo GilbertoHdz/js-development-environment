@@ -16,3 +16,20 @@ Set up Node Security Platform
 
 Step 3:
 Set up webserver with express
+Config: localtunnel
+  npm i localtunnel -g
+  start [app]
+  lt --port 3000
+ngrock <- Secure tunnel
+  sign up
+  install ngrock
+  install authtoken
+  start [app]
+  ./ngrock http:80
+now <- quick deploy nodeJs to the cloud
+  npm i -g now
+  create start script
+  now
+surge <- quickly host static files to publick URL
+  npm i -g surge
+  surge
