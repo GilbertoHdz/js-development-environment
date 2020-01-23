@@ -36,6 +36,8 @@ surge <- quickly host static files to publick URL
 
 Step 4: Config build script with automation npm scripts.
  see: https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/
- * config demo script script by
+ * config script process with:
   - npm start
   - npm run share
+
+Step 5: Config transpiling - Babel

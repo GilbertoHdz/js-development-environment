@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "description": "JavaScript development environment Pluralsight course by Gilberto Hernandez G.",
     "scripts": {
-        "prestart": "node buildScript/startMessage.js",
+        "prestart": "babel-node buildScript/startMessage.js",
         "start": "npm-run-all --parallel open:src",
-        "open:src": "node buildScript/srcServer.js",
+        "open:src": "babel-node buildScript/srcServer.js",
         "localtunnel": "lt --port 3000",
         "share": "npm-run-all --parallel open:src localtunnel"
     },
