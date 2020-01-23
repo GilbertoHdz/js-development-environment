@@ -41,3 +41,6 @@ Step 4: Config build script with automation npm scripts.
   - npm run share
 
 Step 5: Config transpiling - Babel
+
+Step 6: Bundling configuration with webpack
+  1) webpack file: bit.ly/2dSZwea
