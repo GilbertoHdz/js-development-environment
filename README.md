@@ -44,3 +44,5 @@ Step 5: Config transpiling - Babel
 
 Step 6: Bundling configuration with webpack
   1) webpack file: bit.ly/2dSZwea
+  2) webpack with express
+  3) create app entry point
