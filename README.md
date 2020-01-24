@@ -47,3 +47,8 @@ Step 6: Bundling configuration with webpack
   2) webpack with express
   3) create app entry point
   4) webpack devtool demo: https://webpack.js.org/configuration/devtool/ Mod: 8 with debugger
+
+Step 7: Config Linter ESLint
+  1) Config lint -> http://bit.ly/jsdeveslint
+    use lint:watch for watch working development
+    --parallel watch many watching configurations in development mode
