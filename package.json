@@ -4,12 +4,14 @@
     "description": "JavaScript development environment Pluralsight course by Gilberto Hernandez G.",
     "scripts": {
         "prestart": "babel-node buildScript/startMessage.js",
-        "start": "npm-run-all --parallel open:src lint:watch",
+        "start": "npm-run-all --parallel open:src lint:watch test:watch",
         "open:src": "babel-node buildScript/srcServer.js",
         "lint": "esw webpack.config.* src buildScrip --color",
         "lint:watch": "npm run lint -- --watch",
         "localtunnel": "lt --port 3000",
-        "share": "npm-run-all --parallel open:src localtunnel"
+        "share": "npm-run-all --parallel open:src localtunnel",
+        "test": "mocha --reporter progress buildScrip/testSetup.js \"src/**/*.test.js\"",
+        "test:watch": "npm run test -- --watch"
     },
     "author": "Gilberto Hernandez G.",
     "license": "MIT",

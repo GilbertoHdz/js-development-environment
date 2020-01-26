@@ -52,3 +52,6 @@ Step 7: Config Linter ESLint
   1) Config lint -> http://bit.ly/jsdeveslint
     use lint:watch for watch working development
     --parallel watch many watching configurations in development mode
+
+Step 8: Testing configuration
+  1)
