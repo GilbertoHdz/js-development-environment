@@ -60,3 +60,6 @@ Step 9: CI Travis
   Create account in travis / travis-ci.com
   Config AppVeyor auto deployment
     crete account in appveyor.com and import proyect
+
+Step 10: HTTP Call approaches
+  config userApi
