@@ -57,3 +57,6 @@ Step 8: Testing configuration
   1)
 
 Step 9: CI Travis
+  Create account in travis / travis-ci.com
+  Config AppVeyor auto deployment
+    crete account in appveyor.com and import proyect
