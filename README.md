@@ -55,3 +55,5 @@ Step 7: Config Linter ESLint
 
 Step 8: Testing configuration
   1)
+
+Step 9: CI Travis
