@@ -68,3 +68,4 @@ Step 10: HTTP Call approaches
       - config server data via API with JSON Server typicode
       - typeSchema: http://bit.ly/ps-mock-data-schema
       - Generate mock data from package.json -> npm run generate-mock-data
+      - start-mockapi -> npm run start-mockapi
