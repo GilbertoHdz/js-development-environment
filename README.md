@@ -62,4 +62,9 @@ Step 9: CI Travis
     crete account in appveyor.com and import proyect
 
 Step 10: HTTP Call approaches
-  config userApi
+  1) config userApi
+  2)  - JSON Schema Faker
+      - generate random data with faker, chance, randex.js and
+      - config server data via API with JSON Server typicode
+      - typeSchema: http://bit.ly/ps-mock-data-schema
+      - Generate mock data from package.json -> npm run generate-mock-data
