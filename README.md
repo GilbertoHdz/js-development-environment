@@ -80,3 +80,8 @@ Step 11: Production Build
   - 6) Config cache busting with hash
   - 7) Config css hash text plugin
   - 8) config error loggin: Track.js
+
+Step 12: Production deployment
+  - 1) Cloud hosting: Heroku
+      Procfile <- declaring rules for heroku needs express to api, testing, transpiling, etc.
+  - 2) surge.sh -> deployment frontend
