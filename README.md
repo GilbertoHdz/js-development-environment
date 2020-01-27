@@ -73,4 +73,5 @@ Step 10: HTTP Call approaches
 Step 11: Production Build
   - Minifications, Sourcemaps, Dynamic HTML, Cache busting, Bundle splitting, Error logging
   - 1) Setup webpack.prod
+  - 2) setup mock api use: http://localhost:3000/?useMockApi=true and load mockApi
 
