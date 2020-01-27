@@ -1,5 +1,6 @@
+/*eslint no-extra-semi: 2*/
 export default function getBaseUrl() {
-    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/';
+    return getQueryStringParameterByName('useMockApi') ? 'http://localhost:3001/' : '/'
 }
 
 function getQueryStringParameterByName(name, url) {
@@ -13,4 +14,4 @@ function getQueryStringParameterByName(name, url) {
     if (!results[2]) return '';
 
     return decodeURIComponent(results[2].replace(/\+/g, ' '));
-};
+}
