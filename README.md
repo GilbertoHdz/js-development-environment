@@ -69,3 +69,8 @@ Step 10: HTTP Call approaches
       - typeSchema: http://bit.ly/ps-mock-data-schema
       - Generate mock data from package.json -> npm run generate-mock-data
       - start-mockapi -> npm run start-mockapi
+
+Step 11: Production Build
+  - Minifications, Sourcemaps, Dynamic HTML, Cache busting, Bundle splitting, Error logging
+  - 1) Setup webpack.prod
+
