@@ -79,3 +79,4 @@ Step 11: Production Build
   - 5) Bundle splitting, separated bundling with commonsChunkPlugin
   - 6) Config cache busting with hash
   - 7) Config css hash text plugin
+  - 8) config error loggin: Track.js
